@@ -1,13 +1,8 @@
 module.exports = function sign(dispatch) {
-	let gameId;
-	
-	dispatch.hook('S_LOGIN', 9, (event) => {
-		gameId = event.gameId;
-	});
-	
+	mod.game.initialize(["me"]);
 	dispatch.hook('S_AIR_REACTION_END', 1, (event) => {
-		if(gameId.toString() == event.gameId.toString()) {
-			event.loc.z += 2;
+		if(mod.game.me.is(event.gameId)) {
+			event.loc.z += 4;
 			return true;
 		}
 	});

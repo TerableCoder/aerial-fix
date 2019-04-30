@@ -1,0 +1,10 @@
+{
+	"files": {
+		"index.js": "714ff3be2645982cf2168ea3b082514d8bdccb35bee534af57da9362c5a8c8fe",
+		"module.json": "18c344b8f449a24ac833e62e7251a415ee2d4c59498649ab0530c10919b77818",
+		"README.md": "0e846952ac633a1d260d5e48990252c5dc7cd83336e701cc7c55af125e702689"
+	},
+	"defs": {
+		"S_AIR_REACTION_END": 1
+	}
+}

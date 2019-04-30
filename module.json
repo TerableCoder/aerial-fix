@@ -3,6 +3,6 @@
     "name": "aerial-fix",
     "author": "teralove / TerableCoder",
     "homepage": "https://github.com/TerableCoder/aerial-fix",
-    "description": "Should fix the "stuck in ground" bug from aerial skills",
+    "description": "Should fix the stuck in ground bug from aerial skills",
     "servers": ["https://raw.githubusercontent.com/TerableCoder/aerial-fix/master/"]
 }
